@@ -32,7 +32,7 @@ def fetch_and_calculate():
             "temperature_2m", "relative_humidity_2m",
             "shortwave_radiation_instant", "diffuse_radiation_instant",
             "direct_normal_irradiance_instant",
-            "wind_speed_80m", "wind_direction_80m", "rain"
+            "wind_speed_10m", "wind_direction_10m", "rain"
         ],
         "timezone": "Asia/Bangkok",
         "forecast_days": 1,
