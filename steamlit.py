@@ -77,7 +77,7 @@ def fetch_and_calculate():
     def solar_pv_output(DNI, DHI, GHI, T_amb, alpha, gamma_s,
                         beta=14, gamma_p=180, rho=0.2,
                         NOCT=43, gamma=-0.004,
-                        N=30, P_rated=430,
+                        N=6, P_rated=630,
                         eta_inv=0.96, f_loss=0.97):
         if alpha <= 0:
             return (DHI, T_amb, 0, 0)
